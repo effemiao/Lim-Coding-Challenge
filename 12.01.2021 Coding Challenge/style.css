@@ -1,0 +1,91 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+background-image: url(img/background.jpg);
+background-color: white;
+background-position: auto;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.main {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 80%;
+  margin: 2% auto;
+  padding: 60px 80px;
+}
+
+.logo {
+  width: 20%;
+}
+
+nav, header {
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+  padding: 10px 10px;
+  background-color: #04dc04;
+}
+
+header h1 {
+  color: #04dc04;
+}
+
+ul li {
+  color: white;
+  line-height: 28px;
+  list-style-type: none;
+}
+
+.available li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.available li:first-child{
+  margin-top: 15px;
+}
+
+.monopattino {
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.freccia::after {
+  content: '\21A6';
+}
+
+.indirizzo, .stato {
+  font-weight: 300;
+}
+
+.carica {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.carica.uno {
+  width: 30%;
+  background-color: orange;
+}
+
+.carica.due {
+  width: 65%;
+  background-color: #04dc04;
+}
+
+.carica.tre {
+  width: 15%;
+  background-color: red;
+}
